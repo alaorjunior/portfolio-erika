@@ -22,6 +22,32 @@ body {
   box-shadow: 15px 15px 15px 15px rgb(1, 57, 6);
 }
 
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .logo,
+  .foto-portfolio {
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  h1 h3 {
+    order: 2;
+  }
+
+  .foto-portfolio {
+    order: 3;
+  }
+
+  .logo {
+    order: 1;
+  }
+}
+
 header {
   display: flex;
   background-color: var(--cor-principal);
